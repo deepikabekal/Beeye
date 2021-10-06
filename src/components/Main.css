@@ -1,0 +1,22 @@
+/* this file has all the classes thats common to multiple elements */
+.pad-left-15 {
+  padding-left: 15px;
+}
+
+.btn:hover {
+  background-color: var(--baseLight20);
+  cursor: pointer;
+}
+
+.grayed-text {
+  color: var(--lightGray);
+}
+
+.div-border {
+  border-bottom: 1px solid var(--borderColor);
+  width: 100%;
+}
+
+.box-shadow-style {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08), 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

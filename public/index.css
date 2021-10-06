@@ -1,0 +1,50 @@
+:root {
+  --baseMed10: #686985;
+  --accentOrange0: #f27633;
+  --accentOrange01: #fb8c3f;
+  --borderColor: #e5e5e5;
+  --baseLight21: #fdfcff;
+  --lightGray: #b7bad6;
+  --greysMed01: #d6dbe3;
+  --greysLight02: #f6f7fa;
+  --baseLight20: #f1f0fa;
+  --baseDark01: #34344b;
+  --backGroundColor: #ffffff;
+  --greysDark0: #9096a0;
+  --baseMed11: #b7bad6;
+  --accentLOrange11: #fff9f2;
+  --accentLOrange10: #fff3e2;
+
+  /* --dark: #000000;
+  --darker: #111111;
+  --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem); */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* main {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 20px 30px;
+} */
+
+/* root div style */
+#root {
+  min-width: max-content;
+}
+
+.container {
+  display: flex;
+}

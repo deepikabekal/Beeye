@@ -1,0 +1,41 @@
+/* styles for all the resource planning components */
+
+.resource-list-container {
+  border: 1px solid var(--borderColor);
+}
+
+.resource-list-div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /* align-self: stretch; */
+}
+
+.resource-img-div {
+  padding: 10px;
+  pointer-events: none;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+.resource-info-div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  pointer-events: none;
+}
+
+.resource-name {
+  /* padding: 0; */
+  color: var(--baseDark01);
+  margin: 10px;
+  line-height: 1px;
+}
+
+.resource-desig {
+  color: var(--lightGray);
+  margin: 10px;
+  line-height: 1px;
+}

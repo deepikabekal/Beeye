@@ -1,0 +1,21 @@
+/* styles for temp page section */
+
+.temp-page-header {
+  height: 56px;
+  min-width: 270px;
+  /* margin: 10px 0 0 0px; */
+  /* padding-left: 5px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--accentLOrange11);
+}
+
+.temp-page-heading {
+  font-size: 20px;
+  color: var(--baseDark01);
+}
+
+.user-msg {
+  font-size: 16px;
+}

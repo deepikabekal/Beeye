@@ -1,0 +1,67 @@
+/* styles for Equipe section */
+
+.equipe-div {
+  background-color: var(--baseLight21);
+  padding: 10px;
+}
+.toggle-btn-bar,
+.post-site-div {
+  height: 48px;
+  display: flex;
+  margin: 10px 25px;
+}
+
+.equipe-toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 112px;
+  padding: 0 10px;
+  color: var(--baseMed10);
+  background-color: var(--backGroundColor);
+  border: 1px solid var(--borderColor);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* styles for post and site section */
+
+.post-site-div {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 448px;
+  background-color: var(--backGroundColor);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.label-span {
+  padding: 0 10px 0 16px;
+  color: var(--baseDark01);
+}
+
+.value-span {
+  color: var(--accentOrange01);
+}
+
+.equipe-plus-icon {
+  margin: 0 6px;
+  font-size: 16px;
+}
+
+.equipe-plus {
+  color: var(--baseMed10);
+  margin: 10px 20px;
+  padding: 10px 0;
+}
+
+.nom-div {
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+.nom-p-tag {
+  margin: 10px 25px;
+  color: var(--greysDark0);
+}

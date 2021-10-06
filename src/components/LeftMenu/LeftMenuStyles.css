@@ -1,0 +1,125 @@
+/* Styles for all the components of the Left menu section */
+
+/* title block styles */
+
+.title-block-container {
+  height: 105px;
+  min-width: 220px;
+  margin: 10px 0 0 0px;
+  /* padding-left: 5px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  height: 24px;
+  /* margin-left: 10px; */
+}
+
+.title-container {
+  margin-bottom: 10px;
+  height: 60px;
+  padding: 0 5px 0 15px;
+}
+
+.debut-container,
+.fin-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu-link-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px 5px 15px;
+}
+
+.title-block-heading {
+  font-size: 20px;
+  color: var(--baseDark01);
+  text-align: center;
+}
+
+.star-icon,
+.arrow-icon {
+  color: var(--greysMed01);
+}
+
+.link-span {
+  color: var(--greysDark0);
+  font-size: 10px;
+}
+
+.title-date-span {
+  color: var(--baseDark01);
+  font-size: 10px;
+}
+
+.client-name {
+  color: var(--baseMed11);
+}
+
+/* open-close project button styles */
+.project-btn-container {
+  height: 32px;
+}
+.project-btn {
+  width: 50%;
+  height: 32px;
+  border: none;
+  margin: 0;
+}
+
+.open-btn {
+  background-color: var(--baseLight21);
+  color: var(--baseMed10);
+}
+
+.close-btn {
+  background-color: var(--greysLight02);
+  color: var(--greysMed01);
+}
+.top-border {
+  border: 1px solid var(--borderColor);
+}
+
+.emp-card-name {
+  font-size: 14px;
+}
+
+.emp-card-desig {
+  font-size: 12px;
+}
+/* left menu list styles */
+
+.menu-list-container {
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-list-container:hover {
+  background-color: var(--baseLight20);
+  cursor: pointer;
+}
+
+.menu-list-container:focus {
+  background-color: var(--accentLOrange11);
+}
+
+.menu-list-content {
+  align-self: center;
+  padding-left: 10px;
+  color: var(--baseDark01);
+}
+
+.click-styles {
+  background-color: var(--accentLOrange11);
+  color: var(--accentOrange0);
+}
